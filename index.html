@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hamz Tech Journey</title>
+    <style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  h1 {
+    color: #185FA5;
+    border-bottom: 2px solid #185FA5;
+    padding-bottom: 10px;
+  }
+  h2 {
+    color: #444;
+    margin-top: 30px;
+  }
+  ul {
+    line-height: 2;
+  }
+  a {
+    color: #185FA5;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+  </head>
+  <body>
+    <h1>Hamz Tech Journey</h1>
+    <p>Building a tech company from zero.</p>
+    <p>Learning to code. Learning to sell.</p>
+
+    <h2>What I am learning</h2>
+    <ul>
+      <li>How the internet works</li>
+      <li>Servers, clients and databases</li>
+      <li>APIs</li>
+      <li>SQL and databases in depth</li>
+      <li>Frontend vs backend</li>
+    </ul>
+
+    <h2>Follow the journey</h2>
+    <a href="https://t.me/hamz_tech">Telegram Channel</a>
+    <script>
+  // add a button that shows today's lesson
+  const button = document.createElement('button');
+  button.textContent = 'What did I learn today?';
+  button.style.marginTop = '20px';
+  button.style.padding = '10px 20px';
+  button.style.backgroundColor = '#185FA5';
+  button.style.color = 'white';
+  button.style.border = 'none';
+  button.style.borderRadius = '6px';
+  button.style.cursor = 'pointer';
+
+  button.onclick = function() {
+    alert('Today I learned: frontend is what users see, backend is what makes it work, and together they are every product ever built.');
+  };
+
+  document.body.appendChild(button);
+</script>
+  </body>
+</html>
