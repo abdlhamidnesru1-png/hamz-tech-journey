@@ -1,0 +1,3 @@
+Day 8 — learning the command line
+This is the most powerful way to control a computer
+Every developer uses this daily
